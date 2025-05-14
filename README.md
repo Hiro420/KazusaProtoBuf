@@ -55,7 +55,7 @@ class Program
         message.AddField(7, new List<int> { 1, 2, 3 });
         message.AddField(8, new uint[] { 4, 5, 6 });
 
-        var nested = new ProtoMessage();
+        ProtoMessage nested = new ProtoMessage();
         nested.AddField(1, "Nested Kazusa");
         nested.AddField(2, 99);
 
