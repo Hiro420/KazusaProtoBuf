@@ -1,6 +1,6 @@
 # KazusaProtoBuf
 
-Flexible and schema-less Protobuf parser + message builder, made to be easily embdded into your code.
+Flexible and schema-less Protobuf parser + message builder, made to be easily embdded into your code.\
 Kazusa doesn't like installing many libraries, so this one only uses Newtonsoft.Json (for message->JSON serializing)
 
 ## Features
